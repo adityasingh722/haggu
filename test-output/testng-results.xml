@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="153" started-at="2021-01-27T10:15:00Z" finished-at="2021-01-27T10:15:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="153" started-at="2021-01-27T10:15:00Z" finished-at="2021-01-27T10:15:00Z">
+      <class name="firstPackage.login">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:firstPackage.login@525f1e4e]" name="startReport" is-config="true" duration-ms="307" started-at="2021-01-27T15:44:59Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:firstPackage.login@525f1e4e]" name="launchbrowser" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="FAIL" signature="tc1()[pri:1, instance:firstPackage.login@525f1e4e]" name="tc1" duration-ms="48" started-at="2021-01-27T15:45:00Z" description="masti hai" finished-at="2021-01-27T15:45:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at firstPackage.login.tc1(login.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:firstPackage.login@525f1e4e]" name="closebrowser" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:firstPackage.login@525f1e4e]" name="getResult" is-config="true" duration-ms="4" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=FAILURE method=login.tc1()[pri:1, instance:firstPackage.login@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:firstPackage.login@525f1e4e]" name="launchbrowser" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="tc2()[pri:2, instance:firstPackage.login@525f1e4e]" name="tc2" duration-ms="7" started-at="2021-01-27T15:45:00Z" description="masti hai" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:firstPackage.login@525f1e4e]" name="closebrowser" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:firstPackage.login@525f1e4e]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=login.tc2()[pri:2, instance:firstPackage.login@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:firstPackage.login@525f1e4e]" name="launchbrowser" is-config="true" duration-ms="3" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="tc3()[pri:3, instance:firstPackage.login@525f1e4e]" name="tc3" duration-ms="5" started-at="2021-01-27T15:45:00Z" description="masti hai" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:firstPackage.login@525f1e4e]" name="closebrowser" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:firstPackage.login@525f1e4e]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc3 status=SUCCESS method=login.tc3()[pri:3, instance:firstPackage.login@525f1e4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:firstPackage.login@525f1e4e]" name="endReport" is-config="true" duration-ms="708" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- firstPackage.login -->
+      <class name="firstPackage.payment">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:firstPackage.payment@75f9eccc]" name="launchbrowser" is-config="true" duration-ms="0" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="tc04(java.lang.String, java.lang.String)[pri:4, instance:firstPackage.payment@75f9eccc]" name="tc04" duration-ms="7" started-at="2021-01-27T15:45:00Z" data-provider="getData" finished-at="2021-01-27T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pswd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:firstPackage.payment@75f9eccc]" name="getResult" is-config="true" duration-ms="2" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04 status=SUCCESS method=payment.tc04(java.lang.String, java.lang.String)[pri:4, instance:firstPackage.payment@75f9eccc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:firstPackage.payment@75f9eccc]" name="closebrowser" is-config="true" duration-ms="0" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:firstPackage.payment@75f9eccc]" name="launchbrowser" is-config="true" duration-ms="0" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="tc04(java.lang.String, java.lang.String)[pri:4, instance:firstPackage.payment@75f9eccc]" name="tc04" duration-ms="4" started-at="2021-01-27T15:45:00Z" data-provider="getData" finished-at="2021-01-27T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pswd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:firstPackage.payment@75f9eccc]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04 status=SUCCESS method=payment.tc04(java.lang.String, java.lang.String)[pri:4, instance:firstPackage.payment@75f9eccc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:firstPackage.payment@75f9eccc]" name="closebrowser" is-config="true" duration-ms="0" started-at="2021-01-27T15:45:00Z" finished-at="2021-01-27T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- firstPackage.payment -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
